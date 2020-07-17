@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="35.532">
+    <testcase classname="Create API Feature" name="Create API Test Scenario" time="15.676">
+        <system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of page is Simple Login..........................................passed
+Then User enters "anuraggarg2810@gmail.com" and "AnuragGarg@2893"...........passed
+Then User clicks on login button............................................passed
+Then User is on home page...................................................passed
+Then User clicks on API Keys button.........................................passed
+Then User enters API Key name as "key4".....................................passed
+Then User clicks on Create button...........................................passed
+Then the card is created with name "key4"...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create API Feature" name="Create API Test Scenario 2" time="10.312">
+        <system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of page is Simple Login..........................................passed
+Then User enters "anuraggarg2810@gmail.com" and "AnuragGarg@2893"...........passed
+Then User clicks on login button............................................passed
+Then User is on home page...................................................passed
+Then User clicks on API Keys button.........................................passed
+Then User enters API Key name as "key5".....................................passed
+Then User clicks on Create button...........................................passed
+Then the card is created with name "key5"...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create API Feature" name="Create API Test Scenario 3" time="9.153">
+        <system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of page is Simple Login..........................................passed
+Then User enters "anuraggarg2810@gmail.com" and "AnuragGarg@2893"...........passed
+Then User clicks on login button............................................passed
+Then User is on home page...................................................passed
+Then User clicks on API Keys button.........................................passed
+Then User enters API Key name as "key6".....................................passed
+Then User clicks on Create button...........................................passed
+Then the card is created with name "key6"...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

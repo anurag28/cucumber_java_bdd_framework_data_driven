@@ -1,0 +1,472 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-15T16:31:37.805Z",
+        "line": 16,
+        "name": "Create API Test Scenario",
+        "description": "",
+        "id": "create-api-feature;create-api-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11192001000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9496000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of page is Simple Login",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.verify_title_of_page_is_simple_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501780000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"anuraggarg2810@gmail.com\" and \"AnuragGarg@2893\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anuraggarg2810@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "AnuragGarg@2893",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2072184000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8572000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on home page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 596356000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on API Keys button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.userClicksOnAPIKeysButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88610000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters API Key name as \"key4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "key4",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.userEntersAPIKeyNameAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 880110000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.userClicksOnCreateButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74691000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the card is created with name \"key4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"key4\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.theCardIsCreatedWithName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108073000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T16:31:53.509Z",
+        "line": 17,
+        "name": "Create API Test Scenario",
+        "description": "",
+        "id": "create-api-feature;create-api-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5320838000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10221000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of page is Simple Login",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.verify_title_of_page_is_simple_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 508473000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"anuraggarg2810@gmail.com\" and \"AnuragGarg@2893\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anuraggarg2810@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "AnuragGarg@2893",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1978621000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10054000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on home page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1360711000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on API Keys button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.userClicksOnAPIKeysButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90202000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters API Key name as \"key5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "key5",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.userEntersAPIKeyNameAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 824115000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.userClicksOnCreateButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68070000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the card is created with name \"key5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"key5\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.theCardIsCreatedWithName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126098000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T16:32:03.835Z",
+        "line": 18,
+        "name": "Create API Test Scenario",
+        "description": "",
+        "id": "create-api-feature;create-api-test-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4554433000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9292000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of page is Simple Login",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.verify_title_of_page_is_simple_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503261000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"anuraggarg2810@gmail.com\" and \"AnuragGarg@2893\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anuraggarg2810@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "AnuragGarg@2893",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2199258000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6368000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on home page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 686775000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on API Keys button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.userClicksOnAPIKeysButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106065000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters API Key name as \"key6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "key6",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.userEntersAPIKeyNameAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 889418000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.userClicksOnCreateButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68264000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the card is created with name \"key6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"key6\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinition.theCardIsCreatedWithName(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122617000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create API Feature",
+    "description": "",
+    "id": "create-api-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/createAPI.feature",
+    "tags": []
+  }
+]
